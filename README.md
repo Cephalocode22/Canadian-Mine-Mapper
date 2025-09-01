@@ -43,21 +43,23 @@ Both types and metals are used to produce shape-coded and color-coded legends in
 
 Technologies Used
 
-geopandas for spatial data handling
-matplotlib for plotting
-contextily for basemaps
-requests for CKAN API interaction
-pyproj for coordinate transformations
+geopandas for spatial data handling, 
+matplotlib for plotting, 
+contextily for basemaps, 
+requests for CKAN API interaction, 
+pyproj for coordinate transformations, 
 pandas, numpy for tabular data handling
 
 Output Example
 
 The resulting SVG map shows Canadian facilities across all provinces, with visual grouping by facility function and extracted metals. The visualization is suitable for:
 
-Research publications
-Cleantech dashboards
-Educational materials
+Research publications, 
+Cleantech dashboards, 
+Educational materials, 
 Policy analysis in resource management
+
+
 License
 
 This project is released under the MIT License. See the LICENSE
@@ -73,7 +75,7 @@ LinkedIn: colin-tadgell
 
 Future Work
 
-Export interactive maps using Folium or Bokeh
-Create web dashboards using Streamlit or Panel
-Add filters by commodity, province, or company
+Export interactive maps using Folium or Bokeh, 
+Create web dashboards using Streamlit or Panel, 
+Add filters by commodity, province, or company, 
 Integrate real-time production and emissions data
