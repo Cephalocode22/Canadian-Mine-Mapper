@@ -25,36 +25,29 @@ This project integrates Canada’s open-data CKAN API with geospatial analysis t
 
 **Note**: You must manually download and extract the shapefile and place it into the `data/` directory. For example:
 
+
+
 Facility and Metal Categorization
 
 Facilities are categorized by type using the Type_ field and assigned a unique shape:
-
 Smelter: Circle
-
 Shredder: Square
-
 Steel Mill: Triangle
-
 Alloy Facility: Star
 
 Commodities are categorized based on keywords in the CommodityE field and grouped into simplified metal types such as:
-
 Gold, Silver, Copper, Nickel, Zinc, Lead, Uranium, Cobalt, etc.
 
 Both types and metals are used to produce shape-coded and color-coded legends in the final map.
 
+
 Technologies Used
 
 geopandas for spatial data handling
-
 matplotlib for plotting
-
 contextily for basemaps
-
 requests for CKAN API interaction
-
 pyproj for coordinate transformations
-
 pandas, numpy for tabular data handling
 
 Output Example
@@ -62,13 +55,9 @@ Output Example
 The resulting SVG map shows Canadian facilities across all provinces, with visual grouping by facility function and extracted metals. The visualization is suitable for:
 
 Research publications
-
 Cleantech dashboards
-
 Educational materials
-
 Policy analysis in resource management
-
 License
 
 This project is released under the MIT License. See the LICENSE
@@ -85,9 +74,6 @@ LinkedIn: colin-tadgell
 Future Work
 
 Export interactive maps using Folium or Bokeh
-
 Create web dashboards using Streamlit or Panel
-
 Add filters by commodity, province, or company
-
 Integrate real-time production and emissions data
